@@ -30,7 +30,7 @@ filter_default = 0
 #
  [[filter]]
    name = "Consultances"
-   tag = ".consulting"
+   tag = ".consultancy"
 #
 # [[filter]]
 #   name = "Other"

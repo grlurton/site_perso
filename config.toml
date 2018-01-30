@@ -1,6 +1,6 @@
-baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://grlurton.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 #title = "Academic"
-copyright = "&copy; 2017 Grégoire Lurton"
+copyright = "&copy; 2018 Grégoire Lurton"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -271,9 +271,10 @@ defaultContentLanguageInSubdir = false
       weight = 5
 
     [[Languages.en.menu.main]]
-      name = "Contact"
-      url = "#contact"
+      name = "CV"
+      url = "files/GrLurton_cv.pdf"
       weight = 6
+
 
 [Languages.fr]
   languageCode = "fr"
