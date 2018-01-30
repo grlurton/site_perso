@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["hiv","niger","tuberculosis"]
 
 # Links (optional).
 url_pdf = "https://www.researchgate.net/profile/Abdourahamane_Yacouba/publication/310435146_Evaluation_du_benefice_apporte_par_des_examens_complementaires_pour_le_diagnostic_de_la_tuberculose_chez_des_patients_infectes_par_le_VIH_mis_sous_ARV_a_Niamey_Niger/links/5a3b84b5aca2729d5064b8b9/Evaluation-du-benefice-apporte-par-des-examens-complementaires-pour-le-diagnostic-de-la-tuberculose-chez-des-patients-infectes-par-le-VIH-mis-sous-ARV-a-Niamey-Niger.pdf"

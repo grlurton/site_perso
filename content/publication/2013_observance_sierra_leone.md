@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["hiv","lost to follow-up","observance","sierra leone"]
 
 # Links (optional).
 url_pdf = "https://www.researchgate.net/profile/Gregoire_Lurton/publication/256085964_Multiple_self-report_measures_of_antiretroviral_adherence_correlated_in_Sierra_Leone_but_did_they_agree/links/55e6618c08aecb1a7ccd6a1b.pdf"

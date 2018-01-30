@@ -3,7 +3,7 @@ title = "Data verification targetting for Results Based Funding"
 date = 2017-07-29T01:45:39-08:00
 draft = false
 
-tags = ["results based funding","machine learning","consultancy"]
+tags = ["results based funding","machine learning","consultancy","tools","methods"]
 
 # Project summary to display on homepage.
 summary = "An algorithmic framework to orient data verification in Results Based Funding programs"

@@ -29,11 +29,15 @@ filter_default = 0
    tag = "*"
 #
  [[filter]]
-   name = "Consultances"
-   tag = ".consultancy"
-#
-# [[filter]]
-#   name = "Other"
-#   tag = ".demo"
+   name = "Tools"
+   tag = ".tools"
+
+ [[filter]]
+   name = "Methods"
+   tag = ".methods"
+
+  [[filter]]
+    name = "Strategy"
+    tag = ".strategy"
 
 +++

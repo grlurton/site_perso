@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["hiv","mali","hbv","hcv"]
 
 # Links (optional).
 url_pdf = "http://www.jle.com/download/mst-293505-seroprevalence_des_virus_de_limmunodeficience_humaine_et_des_hepatites_b_et_c_chez_les_donneurs_de_sang_a_segou_mali_--Wm@MyX8AAQEAAHbeOn4AAAAB-a.pdf"

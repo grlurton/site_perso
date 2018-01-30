@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["implementation science","education"]
 
 # Links (optional).
 url_pdf = "http://www.tandfonline.com/doi/pdf/10.3402/gha.v9.31899?needAccess=true"
