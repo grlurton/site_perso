@@ -1,6 +1,6 @@
 baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "Academic"
-copyright = "&copy; 2017 Your Name"
+#title = "Academic"
+copyright = "&copy; 2017 Grégoire Lurton"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -36,23 +36,23 @@ defaultContentLanguageInSubdir = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font = "playfair"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Grégoire Lurton"
+  role = "Health Metrics for Developing Health Systems"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  #organizations = [ { name = "Stanford University", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "gregoire.lurton@gmail.com"
+  #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  #office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  #phone = "888 888 88 88"
+  #skype = "echo123"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -88,10 +88,10 @@ defaultContentLanguageInSubdir = false
   zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  #   Examples: "Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
-  time_format = "3:04 PM"
+  time_format = "15:04"
 
   # Show estimated reading time for posts?
   reading_time = true
@@ -170,7 +170,7 @@ defaultContentLanguageInSubdir = false
   [params.publications]
     # Date format (refer to Go's date format: http://fuckinggodateformat.com )
     #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-    date_format = "January, 2006"
+    date_format = "Mon, January, 2006"
 
   # Configuration of project pages.
   [params.projects]
@@ -182,7 +182,7 @@ defaultContentLanguageInSubdir = false
     #   1 = Detailed
     #   2 = APA
     #   3 = MLA
-    publication_format = 3
+    publication_format = 2
 
   # Social/Academic Networking
   #
@@ -205,22 +205,22 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:gregoire.lurton@gmail.com"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/grlurton"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.com/citations?user=TYzu2X8AAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/grlurton"
 
 
 # Navigation Links
@@ -229,37 +229,7 @@ defaultContentLanguageInSubdir = false
 #   The weight parameter defines the order that the links will appear in.
 [params.menus]
   # Align the main menu to the right of the page? (true/false)
-  align_right = true
-
-[[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
-
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
-
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
-
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
-
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
-
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+  align_right = false
 
 # Taxonomies.
 [taxonomies]
@@ -271,5 +241,69 @@ defaultContentLanguageInSubdir = false
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
-[Languages.en]
+[Languages]
+  [Languages.en]
   languageCode = "en-us"
+
+    [[Languages.en.menu.main]]
+      name = "Home"
+      url = "#about"
+      weight = 1
+
+    [[Languages.en.menu.main]]
+      name = "Projects"
+      url = "#projects"
+      weight = 2
+
+    [[Languages.en.menu.main]]
+      name = "Publications"
+      url = "#publications"
+      weight = 3
+
+    [[Languages.en.menu.main]]
+      name = "Presentations"
+      url = "#talks"
+      weight = 4
+
+    [[Languages.en.menu.main]]
+      name = "Posts"
+      url = "#posts"
+      weight = 5
+
+    [[Languages.en.menu.main]]
+      name = "Contact"
+      url = "#contact"
+      weight = 6
+
+[Languages.fr]
+  languageCode = "fr"
+
+  [[Languages.fr.menu.main]]
+    name = "Accueil"
+    url = "#about"
+    weight = 1
+
+  [[Languages.fr.menu.main]]
+    name = "Publications"
+    url = "#publications_selected"
+    weight = 2
+
+  [[Languages.fr.menu.main]]
+    name = "Billets"
+    url = "#posts"
+    weight = 3
+
+  [[Languages.fr.menu.main]]
+    name = "Projets"
+    url = "#projects"
+    weight = 4
+
+  [[Languages.fr.menu.main]]
+    name = "Enseignement"
+    url = "#teaching"
+    weight = 5
+
+  [[Languages.fr.menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 6
