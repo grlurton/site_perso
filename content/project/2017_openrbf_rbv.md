@@ -1,5 +1,5 @@
 +++
-title = "Data verification targetting for Results Based Funding"
+title = "Targetting data verification in Results Based Funding programs"
 date = 2017-07-29T01:45:39-08:00
 draft = false
 
@@ -9,7 +9,7 @@ tags = ["results based funding","machine learning","consultancy","tools","method
 summary = "An algorithmic framework to orient data verification in Results Based Funding programs"
 
 # Optional image to display on homepage.
-image_preview = ""
+image_preview = "rbf_verification.png"
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -23,8 +23,8 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
-caption = ""
+image = "rbf_verification.png"
+caption = "Verification trails are simulated for each facility"
 
 +++
 OpenRBF is a solution used in many countries to track results and payments in Results Based Funding programs in developing countries. In most programs using OpenRBF, facilities submit monthly reports to the financing entity. These reports are then verified by on site supervisions, and payments are made on the verified data. This full verification ensures the accuracy of the payments made, but is costly to implement. This project aimed at defining and testing algorithms to orient program managers willing to only verify subsets of the data reported each month.
