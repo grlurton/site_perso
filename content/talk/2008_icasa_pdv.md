@@ -1,44 +1,44 @@
 +++
-title = "Defining a supervision strategy using artificial intelligence (AI) - The case of data supervision for the results based financing intervention in Benin"
-date = 2017-10-17T00:01:54-08:00 # Schedule page publish date.
+title = "Les patients perdus de vue dans la file active de la région de Ségou, Mali"
+date = 2008-12-02T17:15:32-08:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2017-10-17
-#time_end = 2017-10-17T00:01:54-08:00
+time_start = 2008-12-02T17:15:32-08:00
+time_end = 2008-12-02T17:15:32-08:00
 
 # Abstract and optional shortened version.
 abstract = ""
 abstract_short = ""
 
-authors = ["Grégoire Lurton", "Matthieu Antony", "Antoine Legrand", "Nicolas de Borman"]
-
 # Name of event and optional event URL.
-event = "10th European Congress on Tropical Medicine and International Health"
-event_url = "http://www.ectmih2017.be"
+event = "15th International Conference on AIDS and STIs in Africa"
+event_url = ""
 
 # Location of event.
-location = "Antwerp"
+location = "Dakar"
 
 # Is this a selected talk? (true/false)
 selected = false
 
-talks_types = ["0"]
+# Talk Type
+talks_types =  ["0"]
+authors = ["Grégoire Lurton"]
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ['openrbf_rbv']
+projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["results based funding","machine learning","bénin","statistical systems"]
+tags = ["mali", "lost to follow-up","hiv","statistical systems"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "https://solthis.org/wp-content/uploads/2015/10/15.-Les-perdus-de-vue-de-la-rgion-de-Segou-au-Mali.pdf"
 url_video = ""
 url_code = ""
 

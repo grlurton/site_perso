@@ -1,5 +1,5 @@
 baseurl = "https://grlurton.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-#title = "Academic"
+title = "Grégoire Lurton"
 copyright = "&copy; 2018 Grégoire Lurton"
 theme = "academic"
 enableEmoji = true
@@ -156,10 +156,17 @@ defaultContentLanguageInSubdir = false
     'Conference proceedings',  # 1
     'Peer Reviewed Journal',  # 2
     'Work in progress',  # 3
-    'Technical report',  # 4
+    'Technical Report',  # 4
     'Book',  # 5
-    'Book chapter',  # 6
-    'Interview' #7
+    'Book Chapter',  # 6
+    'Interview', #7
+    'Consultancy Report' #8
+  ]
+
+  talks_types = [
+    'Presentation', #0
+    'Poster', #1
+    'Invited Talk' #2
   ]
 
   # Configuration of talk pages.
@@ -237,6 +244,7 @@ defaultContentLanguageInSubdir = false
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
+  talks_types = "talks_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.

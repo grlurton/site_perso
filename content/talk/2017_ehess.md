@@ -1,12 +1,12 @@
 +++
 title = "How to build Global Health Knowledge: norming or aggregation?"
-date = 2017-10-24T18:25:21-08:00  # Schedule page publish date.
+date = 2017-10-24T00:01:54-08:00 # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-#time_start = 2018-01-29T18:25:21-08:00
-#time_end = 2018-01-29T18:25:21-08:00
+time_start = 2017-10-24
+#time_end = 2017-10-24T00:01:54-08:00
 
 # Abstract and optional shortened version.
 abstract = ""
@@ -18,6 +18,9 @@ event_url = ""
 
 # Location of event.
 location = "Marseille"
+
+authors = ["Grégoire Lurton"]
+talks_types = ["0"]
 
 # Is this a selected talk? (true/false)
 selected = false

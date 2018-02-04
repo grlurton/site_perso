@@ -1,19 +1,22 @@
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
-  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <i class="fa pub-icon" aria-hidden="true">
+    {{ if (.Params.talks_types) and (ne (index .Params.talks_types 0) "0") }}
+    {{ range $index, $pubtype := .Params.talks_types }}
+    {{ index $.Site.Params.talks_types (int .) }}
+    {{end}}{{end}}
+  </i>
   <span itemprop="name"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+  <div itemprop="author">
+    {{ with .Params.authors }} {{- delimit . ", " | markdownify -}} {{- end -}}
+  </div>
   <div itemprop="startDate">
-    {{ $date := .Params.time_start | default .Date }}
-    {{ (time $date).Format $.Site.Params.date_format }}
-<!--   {{ if $.Site.Params.talks.time }}
+    <b>{{ $date := .Params.time_start | default .Date }} {{ (time $date).Format $.Site.Params.date_format }}</b>
+    <!--   {{ if $.Site.Params.talks.time }}
       {{ (time $date).Format ($.Site.Params.time_format | default "3:04 PM") }}
     {{ end }}-->
   </div>
   <div class="talk-metadata">
-    {{ if .Params.event_short }}
-        {{ .Params.event_short | markdownify }}
-    {{ else if .Params.event }}
-            {{ .Params.event | markdownify }}
-    {{ end }}
+    {{ if .Params.event_short }} {{ .Params.event_short | markdownify }} {{ else if .Params.event }} {{ .Params.event | markdownify }} {{ end }}
   </div>
   <div class="talk-links">
     {{ partial "talk_links" (dict "content" . "is_list" 1) }}
