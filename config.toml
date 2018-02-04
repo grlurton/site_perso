@@ -159,7 +159,7 @@ defaultContentLanguageInSubdir = false
     'Technical Report',  # 4
     'Book',  # 5
     'Book Chapter',  # 6
-    'Interview', #7
+    'General Public', #7
     'Consultancy Report' #8
   ]
 
