@@ -23,7 +23,7 @@ location = "Seattle"
 selected = false
 
 # Talk Type
-talks_types =  ["0"]
+talks_types =  ["2"]
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.

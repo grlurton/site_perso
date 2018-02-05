@@ -1,12 +1,12 @@
 +++
-title = "Contribution de la virologie moléculaire à la compréhension de l’épidémie VIH de Madagascar"
-date = 2011-02-01T10:29:01-08:00  # Schedule page publish date.
+title = "Bilan de 10 ans de prise en charge pédiatrique au CHU Gabriel Touré de Bamako (Mali)"
+date = 2011-02-01  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2011-02-01T10:29:01-08:00
-time_end = 2011-02-01T10:29:01-08:00
+time_start = 2011-02-01
+time_end = 2011-02-01
 
 # Abstract and optional shortened version.
 abstract = ""
@@ -19,12 +19,13 @@ event_url = ""
 # Location of event.
 location = "Addis Ababa"
 
-talks_types = ['0']
-
-authors = ["F. Lamontagne", "G. Lurton", "S. Andriantsimietry", "ML. Chaix", "M. Randria", "J. Nely", "C. Ramamonjisoa ", "JS Lalao", "H. Rahasana", "F. Huber", "L. Pizarro", "LR. Razanakolona", "C. Rouzioux"]
-
 # Is this a selected talk? (true/false)
 selected = false
+
+# Talk Type
+talks_types =  ["1"]
+
+authors = ["M. Sylla", "H. Coulibaly", "F. Dicko-Traoré", "A. Akondé", "G. Lurton", "A.A. Diakité", "A. Diallo", "C.N’Diaye", "M. Traoré", "S. Touré", "N. Koné", "T. Sidibé"]
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
@@ -34,10 +35,10 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["madagascar", "hiv","virus resistance", "virology"]
+tags = ["mali","hiv","paediatrics"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://solthis.org/wp-content/uploads/2015/10/12.-Bilan-de-10-ans-de-prise-en-charge-pdiatrique-au-CHU-Tour.pdf"
 url_slides = ""
 url_video = ""
 url_code = ""

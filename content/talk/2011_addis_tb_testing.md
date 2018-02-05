@@ -1,12 +1,12 @@
 +++
-title = "Contribution de la virologie moléculaire à la compréhension de l’épidémie VIH de Madagascar"
-date = 2011-02-01T10:29:01-08:00  # Schedule page publish date.
+title = "Hétérogénéité des pratiques et difficultés diagnostiques de la tuberculose chez les personnes infectées par le VIH à Niamey, Niger"
+date = 2011-02-01  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2011-02-01T10:29:01-08:00
-time_end = 2011-02-01T10:29:01-08:00
+time_start = 2011-02-01
+time_end = 2011-02-01
 
 # Abstract and optional shortened version.
 abstract = ""
@@ -19,12 +19,13 @@ event_url = ""
 # Location of event.
 location = "Addis Ababa"
 
-talks_types = ['0']
-
-authors = ["F. Lamontagne", "G. Lurton", "S. Andriantsimietry", "ML. Chaix", "M. Randria", "J. Nely", "C. Ramamonjisoa ", "JS Lalao", "H. Rahasana", "F. Huber", "L. Pizarro", "LR. Razanakolona", "C. Rouzioux"]
-
 # Is this a selected talk? (true/false)
 selected = false
+
+# Talk Type
+talks_types =  ["1"]
+
+authors = ["R. Abba", "F. Lamontagne", "M. Souleymanou", "O. Seybou", "Y. Hanki", "S. Diallo", "G. Lurton", "S. Mamadou"]
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
@@ -34,10 +35,10 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["madagascar", "hiv","virus resistance", "virology"]
+tags = ["hiv","tuberculosis","niger"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://solthis.org/wp-content/uploads/2015/10/13.-Heterognite-des-pratiques-et-difficultes-diagnostiquees-de-la-TB.pdf"
 url_slides = ""
 url_video = ""
 url_code = ""
